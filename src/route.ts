@@ -3,7 +3,7 @@ import { CreateUserController } from "./useCases/CreateUser/CreateUserController
 
 import { AuthenticateUserController } from "./useCases/authenticateUser/AuthenticateUserController";
 import { ensureAuthenticated } from "./middlewares/ensureAuthenticated";
-import { RefreshTokenUserController } from "./useCases/refreshTokenUser/refreshTokenUserController";
+import { RefreshTokenUserController } from "./useCases/refreshTokenUser/RefreshTokenUserController";
 
 const router = Router();
 
